@@ -1,0 +1,10 @@
+name: unit test
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v1
+      - name: Run test 🌲
+        run: yarn test
