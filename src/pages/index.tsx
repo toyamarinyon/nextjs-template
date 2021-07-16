@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="inset-0 absolute flex items-center justify-center">
-        <h1 className="flex items-center text-2xl">
+        <h1 className="flex items-center text-2xl" data-test="top-page-title">
           Welcome to&nbsp;
           <a href="https://nextjs.org">Next.js!</a>
           <ThumbUpIcon className="w-8 ml-2" />
