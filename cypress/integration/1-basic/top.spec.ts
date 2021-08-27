@@ -1,5 +1,5 @@
 it('サイトにアクセス', () => {
   //
   cy.visit('/')
-  cy.get('[data-test=top-page-title]').should('exist')
+  cy.get('[data-testid=top-page-title]').should('exist')
 })
